@@ -1,7 +1,8 @@
 # Contra #
 
 Contra is a a programming language that I written from scratch
-while I was writing my book [Practical Interpreter Construction](https://leanpub.com/pic)
+while I was writing my book
+[Practical Interpreter Construction](https://leanpub.com/pic)
 
 Contra is ideal for studying interpreter construction that it has
 tokenizer, parser and interpreter. I consciously keep it simple
