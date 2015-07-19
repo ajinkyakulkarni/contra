@@ -1,0 +1,11 @@
+main
+    def hello()
+        message = "Hello"
+    end
+    
+    def message(msg)
+        print msg
+    end
+    
+    message(hello())
+end

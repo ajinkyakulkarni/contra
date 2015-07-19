@@ -1,0 +1,18 @@
+main
+    
+    println "--- 19.05.2015-17:53 ---"
+    println "--- Fonksiyon Parametreleri Sayýsý Kontrolü ---"
+    println "--- Eksik Ya da Fazla Olursa Hata Veriyoruz ---"
+    println "--- Bu Scriptteki Son 2 Satýr Hata Verir ---"
+    
+    def write(msg1, msg2, msg3)
+        println msg1
+        println msg2
+        println msg3
+    end
+       
+    write("A","B","C")
+        
+    write("A","B")
+    write("A","B","C","D")    
+end

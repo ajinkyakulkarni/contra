@@ -1,0 +1,9 @@
+main    
+    count = 1        
+    while count <= 5
+        println("Hello World")
+        println(count)
+        wait(300)
+        count = count + 1
+    end       
+end

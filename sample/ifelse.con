@@ -1,0 +1,8 @@
+main
+    if 3<4
+        println("Hello World.")
+    end
+    else
+        println("Hello Space.")
+    end
+end

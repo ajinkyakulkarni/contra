@@ -1,0 +1,30 @@
+main
+    def Message()
+        println "--- 10.05.2015-23:06 ---"
+        println ""    
+    end
+    
+    def Init()
+        table = ["Mehmet",30,40,80]    
+        index = 0
+    end
+    
+    def ShowOff()
+        while index < 4
+            println table[index]
+            index = index + 1
+        end
+    end
+
+    def TestIndexExpressions()
+        println table[1+2]
+        println table[2-0]
+        println table[1-1]
+    end
+
+    println "--- Lets Start Main Program ---"
+    Message()
+    Init()   
+    ShowOff()
+    TestIndexExpressions()    
+end

@@ -1,0 +1,10 @@
+main
+    A=10
+    while A>0
+        print A
+        print " "
+        println "Mehmet"
+        A=A-1
+        wait 400
+    end
+end

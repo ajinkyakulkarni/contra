@@ -1,0 +1,26 @@
+script
+    println("Write your expense and press enter.")
+    println("Fields must be semicolon separated.")
+    println("Here is an example. You can copy and paste it to test it:")
+    print("21;2015-06-16;Mehmet's Kebap;London;")
+    println("Eating Out;Debit;USD;With friends")
+    print("prompt:>");
+    
+    line = readln()
+    items = split(line, ";")
+               
+    def addExpense()
+    
+        dbInfo = "jdbc:mariadb://localhost:3306;expense;expenseman;test123"
+        
+        insert = "INSERT INTO expense "
+        params = "(amount, date, location, city, type, method, currency, notes) "
+        rest = "VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+        query = strConcat(strConcat(insert, params), rest)
+        
+        res = dbInsertQuery(dbInfo, query, items)
+        
+    end
+    
+    addExpense()    
+end

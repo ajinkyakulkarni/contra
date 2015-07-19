@@ -1,0 +1,7 @@
+main
+    result = -4 + 17
+    println(result);
+
+    result = -5 - -20
+    println(result);
+end

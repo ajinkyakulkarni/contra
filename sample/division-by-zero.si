@@ -1,0 +1,8 @@
+main
+    number = 10
+    while number>=0
+        res = number/number
+        println(res)
+        number = number -1
+    end
+end

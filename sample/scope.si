@@ -1,0 +1,14 @@
+main    
+    average = 13
+    print("Average: ")
+    println(average)
+            
+    def DemoFunction()
+        average = 1
+    end
+    
+    DemoFunction()
+    
+    print("Average: ")
+    println(average)
+end

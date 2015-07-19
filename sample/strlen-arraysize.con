@@ -1,0 +1,10 @@
+main
+    name = "Mehmet"
+    print("Length of your name is:")
+    println(strLen(name))
+    
+    myArray = [1, 2 , 3]
+    print("My array has ")
+    print(arraySize(myArray))
+    println(" elements")        
+end

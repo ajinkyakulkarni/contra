@@ -1,0 +1,66 @@
+main
+    # Reports expenses by week and year
+    # Mehmet Emin Coskun-30.06.2015
+        
+    # Functions start    
+    
+    def reportHeader()        
+        println(" WEEKLY EXPENSE REPORT")
+        println("======================")
+        print("Total")
+        print("      ")
+        print("Week")
+        print("   ")
+        println("Year")        
+    end
+    def reportFooter()
+        println("======================")
+    end
+    
+    def weeklyReport()
+        reportHeader()
+        
+        dbInfo = "jdbc:mariadb://localhost:3306;expense;expenseman;test123"
+        
+        select = "SELECT sum(amount), week(date), DATE_FORMAT(date,'%Y') "        
+        from = "FROM expense GROUP BY week(date), year(date) ORDER BY DATE"
+        query = strConcat(select, from)
+                
+        results = dbSelectQuery(dbInfo, query)
+        
+        max = 10
+        index = 0
+        while (index < arraySize(results))
+            cols = split(results[index], ";")
+            
+            print(cols[0])
+            if strLen(cols[0]) < max
+                i = 0
+                while (i<8-strLen(cols[0]))
+                    print(" ")
+                    i = i + 1
+                end                
+            end
+            print("   ")
+            
+            print(cols[1])
+            if strLen(cols[1]) < max
+                i = 0
+                while (i<2-strLen(cols[1]))
+                    print(" ")
+                    i = i + 1
+                end                                
+            end       
+            print("     ")
+            println(cols[2])      
+            index = index + 1
+        end
+        reportFooter()
+    end
+    
+    # Functions end
+    
+    # Lets see our expenses!
+    weeklyReport()  
+    
+end

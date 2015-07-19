@@ -1,0 +1,14 @@
+main
+    s = 0
+    def sayHello(arr)
+        print("Hello ")
+        while s < 4
+            print(arr[s])
+            s = s + 1
+        end
+        print("!")
+    end
+
+    arr = ["F", "o", "a", "t"]
+    sayHello(arr)
+end

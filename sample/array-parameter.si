@@ -1,0 +1,25 @@
+main    
+    println "--- 19.05.2015-16:50 ---"
+    println "--- Mehmet Emin Coþkun ---"
+    println "--- Fonksiyon Parametrelerinde Deðiþken ve Dizi ---"
+    println "--- Bu Script Bunu Test Ediyor ---"
+    println "--- Nefis Bir Achievement Daha ---"
+    println "#####################################"
+    
+    numbers = [10,20,30,40,100,200,300,400]
+
+    def ShowOff(array)
+        index = 0
+        while index < 8
+            array[index] = array[index] + 7
+            index = index + 1
+        end         
+        index = 0
+        while index < 8
+            println array[index]
+            index = index + 1
+        end
+    end
+    
+    ShowOff(numbers)    
+end

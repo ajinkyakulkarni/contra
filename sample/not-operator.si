@@ -1,0 +1,21 @@
+main
+    number = 1
+    count  = 2
+    
+    if number == count
+        println("Equal")
+    end
+    else
+        println("Not Equal")
+    end
+    
+    number = 1
+    count  = 2
+    
+    if number != count
+        println("Not Equal")
+    end
+    else
+        println("Equal")
+    end    
+end

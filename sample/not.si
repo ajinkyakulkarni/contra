@@ -1,0 +1,9 @@
+main
+    number = 1
+    count  = 2
+
+    result = number != count    
+    res = !(result)
+    
+    println(res);
+end

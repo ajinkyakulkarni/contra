@@ -1,0 +1,29 @@
+main
+    def SayMyName()
+        print "Mehmet"
+    end
+
+    def Space()
+        print " "
+    end
+    
+    def Message()
+        SayMyName()
+        Space()
+        print "Emin"
+        Space()
+        print "Coþkun"
+    end
+    
+    println "10.05.2015-Pazar-19:22"    
+            
+    COUNTER=10
+    while COUNTER>=1
+        print COUNTER
+        print " "
+        Message()
+        println ""
+        wait 300
+        COUNTER=COUNTER-1
+    end    
+end

@@ -1,0 +1,13 @@
+main
+    def message()
+        print(":) ")
+        println("Hello Moto...")        
+    end
+    
+    count = 0
+    while count<500000
+        message()
+        count = count + 1
+        print(count)
+    end    
+end
