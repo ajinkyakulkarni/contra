@@ -1,4 +1,7 @@
 script
+    # Adds expense by week and year
+    # Mehmet Emin Coskun-30.06.2015
+
     println("Write your expense and press enter.")
     println("Fields must be semicolon separated.")
     println("Here is an example. You can copy and paste it to test it:")

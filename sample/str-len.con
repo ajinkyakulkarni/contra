@@ -1,8 +1,0 @@
-main
-    str1 = "Mehmet"
-    str2 = "MehmetE"
-    
-    println(strLen(str1))
-    println(strLen(str2))
-
-end

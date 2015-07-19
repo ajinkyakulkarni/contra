@@ -1,9 +1,0 @@
-main
-    def hello()
-        print "Mehmet"
-    end
-    
-    print " Emin"
-        
-    hello()
-end

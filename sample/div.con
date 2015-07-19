@@ -1,6 +1,0 @@
-main
-    A=18/6/3
-    println(A)
-    A=(18/6/3)
-    println(A)
-end

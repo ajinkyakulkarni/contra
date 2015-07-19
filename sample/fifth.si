@@ -1,9 +1,0 @@
-main
-    println ""
-    NUMBER=1
-    print "Before Increase NUMBER="
-    println NUMBER
-    NUMBER=NUMBER+1
-    print "After Increase NUMBER="
-    println NUMBER
-end

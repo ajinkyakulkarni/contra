@@ -1,6 +1,0 @@
-main
-    while (1<2)
-        println("Hello World.")
-        wait(300)
-    end
-end

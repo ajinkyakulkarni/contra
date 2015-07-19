@@ -1,7 +1,0 @@
-main
-    println "--- --- ---"
-    COUNTER=1
-    if COUNTER<5
-        print "Less Than FIVE!"
-    end
-end

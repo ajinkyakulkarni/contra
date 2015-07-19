@@ -1,7 +1,0 @@
-main
-    sum = 1+2+3+5+100+200+300*2
-    println sum
-    
-    expression = (853+92*5)*10-20/2+771;
-    println expression
-end
