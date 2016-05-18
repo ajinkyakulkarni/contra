@@ -1,6 +1,6 @@
 # Contra #
 
-Contra is a a programming language that I written from scratch
+Contra is a a programming language that I wrote from scratch
 while I was writing my book
 [Practical Interpreter Construction](https://leanpub.com/pic)
 
